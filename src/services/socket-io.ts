@@ -1,6 +1,6 @@
 import * as io from "socket.io-client";
 // const baseURL = "http://192.168.0.100:8080";
-const baseURL = process.env.REACT_APP_BASE_URL;
+const baseURL = "chat-api.blockchaininfo.tech";
 
 const connectSocket = () => {
   if (window.socket) {
